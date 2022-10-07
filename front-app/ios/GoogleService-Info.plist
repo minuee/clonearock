@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>306826455701-s95aeenbkvaj1hpkjjf8707covvibg7b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.306826455701-s95aeenbkvaj1hpkjjf8707covvibg7b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBXu5m-kJiGeNRMofhsSeiw6H6yUs25WW8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>306826455701</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dev.kr.co.clonearock</string>
+	<key>PROJECT_ID</key>
+	<string>gatheringssports-99eef</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gatheringssports-99eef.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:306826455701:ios:2726226ee54cdbe493099c</string>
+	<key>DATABASE_URL</key>
+	<string>https://gatheringssports-99eef.firebaseio.com</string>
+</dict>
+</plist>

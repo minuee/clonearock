@@ -1,0 +1,728 @@
+PODS:
+  - boost (1.76.0)
+  - DoubleConversion (1.1.6)
+  - FBLazyVector (0.68.1)
+  - FBReactNativeSpec (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.68.1)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Core (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - Firebase/Auth (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.15.0)
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - Firebase/Messaging (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.15.0)
+  - FirebaseAuth (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - fmt (6.2.1)
+  - glog (0.3.5)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.2)
+  - iamport-react-native (2.0.1):
+    - React-Core
+  - libwebp (1.2.3):
+    - libwebp/demux (= 1.2.3)
+    - libwebp/mux (= 1.2.3)
+    - libwebp/webp (= 1.2.3)
+  - libwebp/demux (1.2.3):
+    - libwebp/webp
+  - libwebp/mux (1.2.3):
+    - libwebp/demux
+  - libwebp/webp (1.2.3)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PromisesObjC (2.1.1)
+  - RCT-Folly (2021.06.28.00-v2):
+    - boost
+    - DoubleConversion
+    - fmt (~> 6.2.1)
+    - glog
+    - RCT-Folly/Default (= 2021.06.28.00-v2)
+  - RCT-Folly/Default (2021.06.28.00-v2):
+    - boost
+    - DoubleConversion
+    - fmt (~> 6.2.1)
+    - glog
+  - RCTRequired (0.68.1)
+  - RCTTypeSafety (0.68.1):
+    - FBLazyVector (= 0.68.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.68.1)
+    - React-Core (= 0.68.1)
+  - React (0.68.1):
+    - React-Core (= 0.68.1)
+    - React-Core/DevSupport (= 0.68.1)
+    - React-Core/RCTWebSocket (= 0.68.1)
+    - React-RCTActionSheet (= 0.68.1)
+    - React-RCTAnimation (= 0.68.1)
+    - React-RCTBlob (= 0.68.1)
+    - React-RCTImage (= 0.68.1)
+    - React-RCTLinking (= 0.68.1)
+    - React-RCTNetwork (= 0.68.1)
+    - React-RCTSettings (= 0.68.1)
+    - React-RCTText (= 0.68.1)
+    - React-RCTVibration (= 0.68.1)
+  - React-callinvoker (0.68.1)
+  - React-Codegen (0.68.1):
+    - FBReactNativeSpec (= 0.68.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.68.1)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Core (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-Core (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.68.1)
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/CoreModulesHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/Default (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/DevSupport (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.68.1)
+    - React-Core/RCTWebSocket (= 0.68.1)
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-jsinspector (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTActionSheetHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTAnimationHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTBlobHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTImageHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTLinkingHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTNetworkHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTSettingsHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTTextHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTVibrationHeaders (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-Core/RCTWebSocket (0.68.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.68.1)
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsiexecutor (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - Yoga
+  - React-CoreModules (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Codegen (= 0.68.1)
+    - React-Core/CoreModulesHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-RCTImage (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-cxxreact (0.68.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-callinvoker (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-jsinspector (= 0.68.1)
+    - React-logger (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+    - React-runtimeexecutor (= 0.68.1)
+  - React-jsi (0.68.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-jsi/Default (= 0.68.1)
+  - React-jsi/Default (0.68.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+  - React-jsiexecutor (0.68.1):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+  - React-jsinspector (0.68.1)
+  - React-logger (0.68.1):
+    - glog
+  - react-native-biometrics (2.1.4):
+    - React
+  - react-native-ble-manager (8.0.2):
+    - React-Core
+  - react-native-randombytes (3.6.1):
+    - React-Core
+  - react-native-safe-area-context (4.2.4):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - ReactCommon/turbomodule/core
+  - react-native-simple-toast (1.1.3):
+    - React-Core
+    - Toast (~> 4.0.0)
+  - react-native-splash-screen (3.3.0):
+    - React-Core
+  - react-native-udp (2.7.0):
+    - React
+  - react-native-video (5.2.0):
+    - React-Core
+    - react-native-video/Video (= 5.2.0)
+  - react-native-video/Video (5.2.0):
+    - React-Core
+  - react-native-webview (11.18.1):
+    - React-Core
+  - React-perflogger (0.68.1)
+  - React-RCTActionSheet (0.68.1):
+    - React-Core/RCTActionSheetHeaders (= 0.68.1)
+  - React-RCTAnimation (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTAnimationHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-RCTBlob (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTBlobHeaders (= 0.68.1)
+    - React-Core/RCTWebSocket (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-RCTNetwork (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-RCTImage (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTImageHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-RCTNetwork (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-RCTLinking (0.68.1):
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTLinkingHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-RCTNetwork (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTNetworkHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-RCTSettings (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.68.1)
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTSettingsHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-RCTText (0.68.1):
+    - React-Core/RCTTextHeaders (= 0.68.1)
+  - React-RCTVibration (0.68.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Codegen (= 0.68.1)
+    - React-Core/RCTVibrationHeaders (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - ReactCommon/turbomodule/core (= 0.68.1)
+  - React-runtimeexecutor (0.68.1):
+    - React-jsi (= 0.68.1)
+  - ReactCommon/turbomodule/core (0.68.1):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-callinvoker (= 0.68.1)
+    - React-Core (= 0.68.1)
+    - React-cxxreact (= 0.68.1)
+    - React-jsi (= 0.68.1)
+    - React-logger (= 0.68.1)
+    - React-perflogger (= 0.68.1)
+  - ReactNativeCameraKit (12.1.0):
+    - React-Core
+  - RNCAsyncStorage (1.17.5):
+    - React-Core
+  - RNCClipboard (1.10.0):
+    - React-Core
+  - RNCMaskedView (0.1.11):
+    - React
+  - RNExitApp (1.1.0):
+    - React
+  - RNFastImage (8.5.11):
+    - React-Core
+    - SDWebImage (~> 5.11.1)
+    - SDWebImageWebPCoder (~> 0.8.4)
+  - RNFBApp (14.9.1):
+    - Firebase/CoreOnly (= 8.15.0)
+    - React-Core
+  - RNFBAuth (14.9.1):
+    - Firebase/Auth (= 8.15.0)
+    - React-Core
+    - RNFBApp
+  - RNFBMessaging (14.9.1):
+    - Firebase/Messaging (= 8.15.0)
+    - React-Core
+    - RNFBApp
+  - RNGestureHandler (2.4.1):
+    - React-Core
+  - RNOS (1.2.6):
+    - React
+  - RNReanimated (2.8.0):
+    - DoubleConversion
+    - FBLazyVector
+    - FBReactNativeSpec
+    - glog
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React-callinvoker
+    - React-Core
+    - React-Core/DevSupport
+    - React-Core/RCTWebSocket
+    - React-CoreModules
+    - React-cxxreact
+    - React-jsi
+    - React-jsiexecutor
+    - React-jsinspector
+    - React-RCTActionSheet
+    - React-RCTAnimation
+    - React-RCTBlob
+    - React-RCTImage
+    - React-RCTLinking
+    - React-RCTNetwork
+    - React-RCTSettings
+    - React-RCTText
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - RNScreens (3.13.1):
+    - React-Core
+    - React-RCTImage
+  - RNSVG (12.3.0):
+    - React-Core
+  - RNVectorIcons (9.1.0):
+    - React-Core
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SDWebImageWebPCoder (0.8.5):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+  - Toast (4.0.0)
+  - Yoga (1.14.0)
+
+DEPENDENCIES:
+  - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
+  - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - iamport-react-native (from `../node_modules/iamport-react-native`)
+  - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
+  - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
+  - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
+  - React (from `../node_modules/react-native/`)
+  - React-callinvoker (from `../node_modules/react-native/ReactCommon/callinvoker`)
+  - React-Codegen (from `build/generated/ios`)
+  - React-Core (from `../node_modules/react-native/`)
+  - React-Core/DevSupport (from `../node_modules/react-native/`)
+  - React-Core/RCTWebSocket (from `../node_modules/react-native/`)
+  - React-CoreModules (from `../node_modules/react-native/React/CoreModules`)
+  - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
+  - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-biometrics (from `../node_modules/react-native-biometrics`)
+  - react-native-ble-manager (from `../node_modules/react-native-ble-manager`)
+  - react-native-randombytes (from `../node_modules/react-native-randombytes`)
+  - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - react-native-simple-toast (from `../node_modules/react-native-simple-toast`)
+  - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
+  - react-native-udp (from `../node_modules/react-native-udp`)
+  - react-native-video (from `../node_modules/react-native-video`)
+  - react-native-webview (from `../node_modules/react-native-webview`)
+  - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
+  - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `../node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `../node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `../node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `../node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `../node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
+  - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
+  - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - ReactNativeCameraKit (from `../node_modules/react-native-camera-kit`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
+  - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
+  - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
+  - RNExitApp (from `../node_modules/react-native-exit-app`)
+  - RNFastImage (from `../node_modules/react-native-fast-image`)
+  - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
+  - "RNFBAuth (from `../node_modules/@react-native-firebase/auth`)"
+  - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNOS (from `../node_modules/react-native-os`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
+  - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - fmt
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - libwebp
+    - nanopb
+    - PromisesObjC
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - Toast
+
+EXTERNAL SOURCES:
+  boost:
+    :podspec: "../node_modules/react-native/third-party-podspecs/boost.podspec"
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  FBLazyVector:
+    :path: "../node_modules/react-native/Libraries/FBLazyVector"
+  FBReactNativeSpec:
+    :path: "../node_modules/react-native/React/FBReactNativeSpec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  iamport-react-native:
+    :path: "../node_modules/iamport-react-native"
+  RCT-Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
+  RCTRequired:
+    :path: "../node_modules/react-native/Libraries/RCTRequired"
+  RCTTypeSafety:
+    :path: "../node_modules/react-native/Libraries/TypeSafety"
+  React:
+    :path: "../node_modules/react-native/"
+  React-callinvoker:
+    :path: "../node_modules/react-native/ReactCommon/callinvoker"
+  React-Codegen:
+    :path: build/generated/ios
+  React-Core:
+    :path: "../node_modules/react-native/"
+  React-CoreModules:
+    :path: "../node_modules/react-native/React/CoreModules"
+  React-cxxreact:
+    :path: "../node_modules/react-native/ReactCommon/cxxreact"
+  React-jsi:
+    :path: "../node_modules/react-native/ReactCommon/jsi"
+  React-jsiexecutor:
+    :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
+  React-jsinspector:
+    :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  React-logger:
+    :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-biometrics:
+    :path: "../node_modules/react-native-biometrics"
+  react-native-ble-manager:
+    :path: "../node_modules/react-native-ble-manager"
+  react-native-randombytes:
+    :path: "../node_modules/react-native-randombytes"
+  react-native-safe-area-context:
+    :path: "../node_modules/react-native-safe-area-context"
+  react-native-simple-toast:
+    :path: "../node_modules/react-native-simple-toast"
+  react-native-splash-screen:
+    :path: "../node_modules/react-native-splash-screen"
+  react-native-udp:
+    :path: "../node_modules/react-native-udp"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
+  react-native-webview:
+    :path: "../node_modules/react-native-webview"
+  React-perflogger:
+    :path: "../node_modules/react-native/ReactCommon/reactperflogger"
+  React-RCTActionSheet:
+    :path: "../node_modules/react-native/Libraries/ActionSheetIOS"
+  React-RCTAnimation:
+    :path: "../node_modules/react-native/Libraries/NativeAnimation"
+  React-RCTBlob:
+    :path: "../node_modules/react-native/Libraries/Blob"
+  React-RCTImage:
+    :path: "../node_modules/react-native/Libraries/Image"
+  React-RCTLinking:
+    :path: "../node_modules/react-native/Libraries/LinkingIOS"
+  React-RCTNetwork:
+    :path: "../node_modules/react-native/Libraries/Network"
+  React-RCTSettings:
+    :path: "../node_modules/react-native/Libraries/Settings"
+  React-RCTText:
+    :path: "../node_modules/react-native/Libraries/Text"
+  React-RCTVibration:
+    :path: "../node_modules/react-native/Libraries/Vibration"
+  React-runtimeexecutor:
+    :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
+  ReactCommon:
+    :path: "../node_modules/react-native/ReactCommon"
+  ReactNativeCameraKit:
+    :path: "../node_modules/react-native-camera-kit"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
+  RNCClipboard:
+    :path: "../node_modules/@react-native-clipboard/clipboard"
+  RNCMaskedView:
+    :path: "../node_modules/@react-native-community/masked-view"
+  RNExitApp:
+    :path: "../node_modules/react-native-exit-app"
+  RNFastImage:
+    :path: "../node_modules/react-native-fast-image"
+  RNFBApp:
+    :path: "../node_modules/@react-native-firebase/app"
+  RNFBAuth:
+    :path: "../node_modules/@react-native-firebase/auth"
+  RNFBMessaging:
+    :path: "../node_modules/@react-native-firebase/messaging"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNOS:
+    :path: "../node_modules/react-native-os"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
+  Yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost: a7c83b31436843459a1961bfd74b96033dc77234
+  DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
+  FBLazyVector: 2c76493a346ef8cacf1f442926a39f805fffec1f
+  FBReactNativeSpec: 371350f24afa87b6aba606972ec959dcd4a95c9a
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  FirebaseAuth: 3e73bf8abf4fbb40f8b421f361f4cc48ee57388c
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
+  FirebaseMessaging: 5e5118a2383b3531e730d974680954c679ca0a13
+  fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
+  glog: 476ee3e89abb49e07f822b48323c51c57124b572
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  iamport-react-native: f6b9f0d0c7c0f4c4dc2b119c143a95a20b166a3a
+  libwebp: 60305b2e989864154bd9be3d772730f08fc6a59c
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  RCT-Folly: 4d8508a426467c48885f1151029bc15fa5d7b3b8
+  RCTRequired: 00581111c53531e39e3c6346ef0d2c0cf52a5a37
+  RCTTypeSafety: 07e03ee7800e7dd65cba8e52ad0c2edb06c96604
+  React: e61f4bf3c573d0c61c56b53dc3eb1d9daf0768a0
+  React-callinvoker: 047d47230bb6fd66827f8cb0bea4e944ffd1309b
+  React-Codegen: bb0403cde7374af091530e84e492589485aab480
+  React-Core: a4a3a8e10d004b08e013c3d0438259dd89a3894c
+  React-CoreModules: bb9f8bc36f1ae6d780b856927fa9d4aa01ccccc0
+  React-cxxreact: 7dd472aefb8629d6080cbb859240bafccd902704
+  React-jsi: b25808afe821b607d51c779bdd1717be8393b7ec
+  React-jsiexecutor: 4a4bae5671b064a2248a690cf75957669489d08c
+  React-jsinspector: 218a2503198ff28a085f8e16622a8d8f507c8019
+  React-logger: f79dd3cc0f9b44f5611c6c7862badd891a862cf8
+  react-native-biometrics: 9d3306e5d29c3bc4e6a3c912d759a94e76a2f683
+  react-native-ble-manager: 2d49a9a94b8a1fb548a5239b0969703282a3545f
+  react-native-randombytes: 421f1c7d48c0af8dbcd471b0324393ebf8fe7846
+  react-native-safe-area-context: f98b0b16d1546d208fc293b4661e3f81a895afd9
+  react-native-simple-toast: bf002828cf816775a6809f7a9ec3907509bce11f
+  react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457
+  react-native-udp: ff9d13e523f2b58e6bc5d4d32321ac60671b5dc9
+  react-native-video: a4c2635d0802f983594b7057e1bce8f442f0ad28
+  react-native-webview: 0b7bd2bffced115aefd393e1841babd9b9a557b1
+  React-perflogger: 30ab8d6db10e175626069e742eead3ebe8f24fd5
+  React-RCTActionSheet: 4b45da334a175b24dabe75f856b98fed3dfd6201
+  React-RCTAnimation: d6237386cb04500889877845b3e9e9291146bc2e
+  React-RCTBlob: bc9e2cd738c43bd2948e862e371402ef9584730a
+  React-RCTImage: 9f8cac465c6e5837007f59ade2a0a741016dd6a3
+  React-RCTLinking: 5073abb7d30cc0824b2172bd4582fc15bfc40510
+  React-RCTNetwork: 28ff94aa7d8fc117fc800b87dd80869a00d2bef3
+  React-RCTSettings: f27aa036f7270fe6ca43f8cdd1819e821fa429a0
+  React-RCTText: 7cb6f86fa7bc86f22f16333ad243b158e63b2a68
+  React-RCTVibration: 9e344c840176b0af9c84d5019eb4fed8b3c105a1
+  React-runtimeexecutor: 7285b499d0339104b2813a1f58ad1ada4adbd6c0
+  ReactCommon: bf2888a826ceedf54b99ad1b6182d1bc4a8a3984
+  ReactNativeCameraKit: 5765fc3e38a8c3b6b26aff6e66f89d9855b1db46
+  RNCAsyncStorage: 81187912cc9a5c2591ddb161e03e587688afb764
+  RNCClipboard: f1736c75ab85b627a4d57587edb4b60999c4dd80
+  RNCMaskedView: 0e1bc4bfa8365eba5fbbb71e07fbdc0555249489
+  RNExitApp: c4e052df2568b43bec8a37c7cd61194d4cfee2c3
+  RNFastImage: 1f2cab428712a4baaf78d6169eaec7f622556dd7
+  RNFBApp: fd23737680ed2bdde41ca27d8bfb171b6d668c6b
+  RNFBAuth: 4cfeb48367f81b135aced4bb9800df5488bc9660
+  RNFBMessaging: cd273b4dcacf98c83a25ce1711c8c85511573990
+  RNGestureHandler: 4f4986408310a43f1606c391f38f76e0d6e790d5
+  RNOS: 6f2f9a70895bbbfbdad7196abd952e7b01d45027
+  RNReanimated: 64573e25e078ae6bec03b891586d50b9ec284393
+  RNScreens: 40a2cb40a02a609938137a1e0acfbf8fc9eebf19
+  RNSVG: 302bfc9905bd8122f08966dc2ce2d07b7b52b9f8
+  RNVectorIcons: 7923e585eaeb139b9f4531d25a125a1500162a0b
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  Yoga: 17cd9a50243093b547c1e539c749928dd68152da
+
+PODFILE CHECKSUM: c9a6d3960daf1bdabdc554f4cca112f9e1594649
+
+COCOAPODS: 1.11.3

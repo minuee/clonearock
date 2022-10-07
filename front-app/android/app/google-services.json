@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "306826455701",
+    "firebase_url": "https://gatheringssports-99eef.firebaseio.com",
+    "project_id": "gatheringssports-99eef",
+    "storage_bucket": "gatheringssports-99eef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306826455701:android:a05641c1339cbe9793099c",
+        "android_client_info": {
+          "package_name": "com.clonearock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306826455701-nh8dh4sdcdgs0e364nhl235rolhb77gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi6TeCzqVEoV7oI9AIxC1m9uPsFt3K7w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306826455701-nh8dh4sdcdgs0e364nhl235rolhb77gm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306826455701-3u1jjc2kb9sqlevpna7iaekm3htbfv14.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gatheringssports"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
